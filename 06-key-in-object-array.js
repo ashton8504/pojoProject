@@ -20,7 +20,8 @@ keyInObjectArray(objArray, 'animal'); // => false
 ***********************************************************************/
 
 function keyInObjectArray(objArray, keyString) {
-  // Your code here
+  console.log(objArray);
+  return objArray.some(obj => obj.hasOwnProperty(keyString));
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/

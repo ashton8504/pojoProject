@@ -11,6 +11,11 @@ restSum(0); // => 0
 
 function restSum(...otherNums) {
   // Your code here
+  total = 0;
+  otherNums.forEach(number => {
+    total += number;
+  });
+  return total;
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
